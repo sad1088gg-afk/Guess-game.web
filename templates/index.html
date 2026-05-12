@@ -4,7 +4,13 @@
     <title>Guess Game</title>
 </head>
 <body>
-    <h1>ابدأ اللعبة 🎮</h1>
+    <h1>لعبة التخمين 🎮</h1>
+
     <p>{{ message }}</p>
+
+    <form method="POST">
+        <input type="number" name="guess" placeholder="اكتب رقم">
+        <button type="submit">تخمين</button>
+    </form>
 </body>
 </html>
